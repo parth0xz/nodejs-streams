@@ -1,7 +1,5 @@
 
 const fs = require('fs')
-const csv = require('csvtojson')
-
 const main = async () => {
 
   const readStream = fs.createReadStream('./data/import.csv')
